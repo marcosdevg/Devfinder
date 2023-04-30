@@ -1,0 +1,34 @@
+.perfil {
+  display: flex;
+  flex-direction: column;
+  grid-area: perfil;
+}
+
+.perfil h1 {
+  font-size: 2.2rem;
+}
+
+.usuario {
+  color: #0078ff;
+  margin-top: 10px;
+  
+}
+.data {
+  grid-area: data;
+}
+
+.bio {
+  grid-area: bio;
+}
+
+@media (max-width: 792px) {
+  .perfil {
+    grid-area: perfil;
+  }
+  .bio {
+    grid-area: bio;
+  }
+  .data {
+    grid-area: data;
+  }
+}

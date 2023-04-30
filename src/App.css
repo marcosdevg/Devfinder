@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+:root {
+  --body-bg: #141d2e;
+  --bg2-color: #1f2a48;
+  --texto-color: #eaf0ff;
+  --title-user-color: #ffffff;
+  --text-input-color: white;
+  --box-shadow: inherit;
+}
+.dark-mode:root {
+  --body-bg: #e4f0ff;
+  --bg2-color: white;
+  --texto-color: #64666c;
+  --title-user-color: rgb(47, 44, 72);
+  --text-input-color: rgb(28, 28, 28);
+  --box-shadow: 0 0 15px rgba(188, 183, 255, 0.5);
+  --icone-color: #4c6a98;
+}
+body {
+  background-color: var(--body-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--texto-color);
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 100px 85px;
+  margin-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: 1/3;
+  color: var(--title-user-color);
+}
+
+.header p {
+  font-size: 1.3rem;
+}
+
+.dadosPerfil {
+  display: grid;
+  padding: 40px;
+  grid-template-columns: 200px 280px 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    ". perfil data"
+    ". bio bio"
+    ". estat estat"
+    ". contato contato";
+  border-radius: 12px;
+  background-color: var(--bg2-color);
+  color: var(--texto-color);
+  row-gap: 30px;
+  font-size: 1.2rem;
+  grid-column: 1/3;
+  box-shadow: var(--box-shadow);
+}
+.dadosPerfil h1 {
+  color: var(--title-user-color);
+}
+
+.icone-dark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.dadosPerfil img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  margin-left: 10px;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  border: 3px solid #0078ff;
+  background-color: #0000;
+  padding: 3px;
+}
+
+@media (max-width: 886px) {
+  body {
+    padding: 0 66px 0 66px;
+  }
+}
+@media (max-width: 792px) {
+  .dadosPerfil {
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 58px repeat(2, auto);
+
+    grid-template-areas:
+      ". perfil"
+      ". data"
+      "bio bio"
+      "estat estat"
+      "contato contato";
+  }
+}
+
+@media (max-width: 525px) {
+  .dadosPerfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  body {
+    padding: 15px;
+  }
+}

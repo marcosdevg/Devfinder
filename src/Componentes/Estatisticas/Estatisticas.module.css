@@ -1,0 +1,30 @@
+.estatisticas {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background-color: var(--body-bg);
+  border-radius: 10px;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  grid-area: estat;
+  
+}
+
+.info p {
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+  color: var(--texto-color);
+}
+.info div {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--title-user-color);
+}
+
+@media (max-width: 792px) {
+  .estatisticas {
+    grid-area: estat;
+  }
+}

@@ -1,0 +1,37 @@
+.contatos {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: contato;
+  gap: 23px;
+}
+
+.contatosItem {
+  display: flex;
+  align-items: center;
+  flex-basis: calc(45% - 10px);
+}
+.contatosItem svg {
+  margin-right: 6px;
+  color: var(--icone-color);
+}
+
+@media screen and (max-width: 767px) {
+  .contatos p {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 792px) {
+  .contatos {
+    grid-area: contato;
+  }
+}
+
+@media (max-width: 525px) {
+  .contatos{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
