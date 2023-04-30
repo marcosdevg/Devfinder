@@ -19,9 +19,10 @@
   
  
 <h1>Mobile:</h1>
-  <img alt="pagina de portifolio" src=".github/img4.png" width="50%">
-  <img alt="pagina de portifolio" src=".github/img3.png" width="50%">
-
+  <div style="display: inline-block">
+    <img alt="pagina de portifolio" src=".github/img4.png" width="50%">
+    <img alt="pagina de portifolio" src=".github/img3.png" width="50%">
+  </div>
 
 </p>
 
@@ -35,8 +36,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - API do Github
 
 ## 💻 Projeto
-O projeto Devfinder é uma aplicação web que fornece informações detalhadas sobre um usuário do Github com base no nome de usuário fornecido. Ele retorna dados como nome, data de entrada no Github, bio, número de repositórios, número de seguidores, número de pessoas que ele segue e localização do usuário. A aplicação possui modos dark e light e é responsiva. É uma ferramenta útil para desenvolvedores e usuários do Github
 
+O projeto Devfinder é uma aplicação web que fornece informações detalhadas sobre um usuário do Github com base no nome de usuário fornecido. Ele retorna dados como nome, data de entrada no Github, bio, número de repositórios, número de seguidores, número de pessoas que ele segue e localização do usuário. A aplicação possui modos dark e light e é responsiva. É uma ferramenta útil para desenvolvedores e usuários do Github
 
 ## 📝 Licença
 
