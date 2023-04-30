@@ -20,8 +20,8 @@
  
 <h1>Mobile:</h1>
   <div style="display: inline-block">
-    <img alt="pagina de portifolio" src=".github/img4.png" width="50%">
-    <img alt="pagina de portifolio" src=".github/img3.png" width="50%">
+    <img alt="pagina de portifolio" src=".github/img4.png" width="49%">
+    <img alt="pagina de portifolio" src=".github/img3.png" width="49%">
   </div>
 
 </p>
