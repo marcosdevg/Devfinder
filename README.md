@@ -19,8 +19,8 @@
   
  
 <h1>Mobile:</h1>
-  <img alt="pagina de portifolio" src=".github/img4.png" width="30%">
-  <img alt="pagina de portifolio" src=".github/img3.png" width="30%">
+  <img alt="pagina de portifolio" src=".github/img4.png" width="50%">
+  <img alt="pagina de portifolio" src=".github/img3.png" width="50%">
 
 
 </p>
