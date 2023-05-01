@@ -14,8 +14,10 @@ const Contatos = ({ dados }) => {
           ? "Not Available"
           : dados.twitter_username}
       </p >
-      <a href={dados.html_url} className={styles.contatosItem}>
-        <FaGithub /> {dados.html_url}
+      <a href={dados.html_url} target="_blank" className={styles.contatosItem}>
+        <p>
+          <FaGithub /> {dados.html_url}
+        </p>
       </a>
       
     </div>

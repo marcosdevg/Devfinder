@@ -2,13 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   grid-area: contato;
-  gap: 23px;
+  /* gap: 23px; */
+  row-gap: 23px;
+  column-gap: 50px;
 }
 
 .contatosItem {
   display: flex;
   align-items: center;
-  flex-basis: calc(45% - 10px);
+  word-break: break-all;
 }
 .contatosItem svg {
   margin-right: 6px;

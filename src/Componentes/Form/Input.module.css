@@ -19,7 +19,8 @@
     color: var(--text-input-color);
     outline: none;
     font-size: 1.3rem;
-    padding-left: 40px;
+    padding-left: 33px;
+    padding-right: 33px ;
 }
 
 .form input::placeholder{

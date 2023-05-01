@@ -11,6 +11,7 @@
 .usuario {
   color: #0078ff;
   margin-top: 10px;
+  word-break: break-all;
   
 }
 .data {
